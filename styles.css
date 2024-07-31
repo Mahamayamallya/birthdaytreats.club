@@ -1,0 +1,257 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+main,
+.hero {
+  background: linear-gradient(to bottom, #000253, #803dab),
+    url("./images/pattern.png"), url("./images/Frame\ 1.png");
+  background-blend-mode: overlay, normal;
+  background-size: cover, cover, contain; /* Adjust sizes for each layer */
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  color: #ffffff;
+}
+
+/* Navigation Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: transparent;
+}
+
+.logo img {
+  max-width: 100px;
+  height: 100%;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  font-family: "Gotham", sans-serif;
+  font-size: 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.hero h1 {
+  font-family: "Joane", sans-serif; /* or a web-safe font alternative */
+  font-size: 33px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-family: "Gotham", sans-serif;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.cta {
+  background-color: #060656;
+  color: #ffffff;
+  border: 5px solid #060656;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Girl Image Styles */
+.girl-image {
+  width: 100%;
+  max-width: 236.89pt;
+  height: auto;
+  margin: 20px auto;
+}
+
+/* Content Styles */
+.content {
+  text-align: center;
+}
+
+.content p {
+  padding: 10px 20px 0 20px;
+  font-size: 15px;
+  color: #464646;
+}
+
+.repeat-img {
+  width: 100%;
+  height: 10px;
+  background-image: url("./images/Repeat\ Grid\ 1.png");
+  background-repeat: repeat-x;
+}
+
+/* Party Flag Image Styles */
+.content img:last-child {
+  width: 100%;
+  height: auto;
+}
+
+.tickets {
+  text-align: center;
+}
+.ticket {
+  margin: 30px auto;
+}
+.ticket p {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #464646;
+}
+.ticket-button {
+  padding: 15px;
+  background-color: #060656;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 130px;
+}
+.brands-bg {
+  background: url("./images/balloon-bg1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.corporates-bg {
+  background: url("./images/balloon-bg2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.individuals-bg {
+  background: url("./images/balloon-bg3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+footer {
+  text-align: center;
+  background: url("./images/footer-bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+footer p {
+  font-size: 11px;
+  color: #252525;
+  margin: 0;
+}
+@media (max-width: 300px) {
+  main,
+  .hero {
+    background: linear-gradient(to bottom, #000253, #803dab),
+      url("./images/pattern.png"), url("./images/Frame\ 1.png");
+    background-blend-mode: overlay, normal;
+    background-size: cover, cover, contain; /* Adjust sizes for each layer */
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    color: #ffffff;
+  }
+}
+@media (min-width: 300px) and (max-width: 440px) {
+  main,
+  .hero {
+    background: linear-gradient(to bottom, #000253, #803dab),
+      url("./images/pattern.png"), url("./images/Frame\ 2.png");
+    background-blend-mode: overlay, normal;
+    background-size: cover, cover, contain; /* Adjust sizes for each layer */
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    color: #ffffff;
+  }
+}
+@media (min-width: 440px) and (max-width: 600px) {
+  main,
+  .hero {
+    background: linear-gradient(to bottom, #000253, #803dab),
+      url("./images/pattern.png"), url("./images/Frame\ 3.png");
+    background-blend-mode: overlay, normal;
+    background-size: cover, cover, contain; /* Adjust sizes for each layer */
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    color: #ffffff;
+  }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+  main,
+  .hero {
+    background: linear-gradient(to bottom, #000253, #803dab),
+      url("./images/pattern.png"), url("./images/Frame\ 4.png");
+    background-blend-mode: overlay, normal;
+    background-size: cover, cover, cover; /* Adjust sizes for each layer */
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    color: #ffffff;
+  }
+}
+/* Desktop Styles */
+@media (min-width: 768px) {
+  main,
+  .hero {
+    background: linear-gradient(to bottom, #000253, #803dab),
+      url("./images/pattern.png");
+    background-blend-mode: overlay, normal;
+    background-size: cover, cover, cover; /* Adjust sizes for each layer */
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    color: #ffffff;
+  }
+  .girl-image {
+    background: url("./images/Frame\ 5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+  }
+  .girl-image > img {
+    max-width: 100%;
+    height: auto;
+  }
+  nav a {
+    font-size: 14px;
+  }
+  .repeat-img {
+    width: 100%;
+    margin: 20px;
+    height: 20px;
+    background-image: url("./images/Repeat\ Grid\ 1.png");
+    background-repeat: repeat-x;
+  }
+  .hero {
+    padding: auto 20px auto 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  .hero h1 {
+    font-size: 42px;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+  .cta {
+    margin: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  .party-flags {
+    display: none;
+  }
+}
