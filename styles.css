@@ -123,6 +123,7 @@ nav a {
   margin-bottom: 20px;
 }
 .content-bg {
+  margin-top: 20px;
   position: relative;
 }
 .container {
@@ -195,6 +196,7 @@ nav a {
 
 footer {
   text-align: center;
+  margin: 10px auto;
 }
 footer p {
   font-size: 11px;
