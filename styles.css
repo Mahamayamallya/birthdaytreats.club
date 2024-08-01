@@ -33,6 +33,7 @@ nav {
   align-items: center;
   padding: 1rem;
   border: none;
+  padding: 20px auto;
 }
 
 .logo img {
@@ -71,7 +72,6 @@ nav a {
 }
 
 .hero p {
-  font-size: 13px;
   margin-bottom: 20px;
 }
 
@@ -101,7 +101,6 @@ nav a {
 }
 
 .content p {
-  font-size: 15px;
   color: #464646;
   margin: auto;
 }
@@ -140,7 +139,6 @@ nav a {
 }
 .container p {
   padding: 10px 20px;
-  font-size: 15px;
   color: #464646;
 }
 .container button {
@@ -210,7 +208,6 @@ footer p {
   color: #ffffff;
   border: none;
   padding: 10px 20px;
-  font-size: 14px;
   cursor: pointer;
   font-family: "PT Serif", serif;
   border-radius: 10px;
@@ -313,6 +310,21 @@ footer p {
 }
 /* Desktop Styles */
 @media (min-width: 768px) {
+  p {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .container button,
+  .cta {
+    font-size: 18px;
+    padding: 10px 20px;
+    width: auto;
+  }
+  footer p {
+    font-size: 14px;
+  }
   main,
   .hero {
     background: linear-gradient(to bottom, #000253, #803dab),
@@ -334,7 +346,7 @@ footer p {
     height: auto;
   }
   nav a {
-    font-size: 14px;
+    font-size: 20px;
   }
   .repeat-img {
     width: 100%;
@@ -359,13 +371,11 @@ footer p {
   .hero h1 {
     font-size: 42px;
   }
-  .hero p {
-    font-size: 16px;
-  }
+
   .cta {
     margin: 20px;
     font-size: 16px;
-    padding: 7px 15px;
+    padding: 10px 20px;
   }
   .party-flags {
     display: none;
